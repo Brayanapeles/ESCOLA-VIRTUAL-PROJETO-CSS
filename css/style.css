@@ -1,0 +1,210 @@
+#body{
+    background-color: rgba(144, 144, 238, 0.932);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /*Trava o elemento para que nõa sofra mudanças de tamanho*/
+    box-sizing: border-box;
+}
+
+h1, h2{
+    color: rgb(63, 63, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#containerMae{
+    height: 3830px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}   
+
+#containerMenu{
+    height: 200px;
+    width: inherit;
+}
+
+.containerCursosHome{
+    height: 350px;
+    width: 100%;
+    background-color: white;
+}
+
+#containerrodape{
+    height: 130px;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+/* Seção do Icone e Nome do Cabeçalho */
+
+#iconeNomeMenu{
+    height: 150px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25px;
+
+}
+
+
+
+#iconeMenu{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+   /* margin-right: 110px; */
+    float: left;
+    margin-top: -25px;
+    margin-right: 80px;
+    
+}
+
+#iconeEscolaMenu{
+    width: 150px;
+    height: 150px;
+}
+
+#nomeMenu{
+    float: left;
+    height: 100px;
+    width: 800px;
+    padding-top: 30px;
+    color: blue;
+}
+
+#hrMenu{
+    width: 580px;
+    height: 5px;
+    color: blue;
+    background-color: blue;
+}
+
+/* Seção do Menu */
+
+#caixaMenu{
+    height: 35px;
+    width: 1100px;
+    background-color: rgb(31, 30, 30);
+}
+
+.itemMenu{
+    float: left;
+    width: 180px;
+    height: inherit;
+    color: white;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.itemMenu:hover{
+    background-color: rgb(63, 63, 226);
+    color: white;
+    text-decoration: underline;
+    transition: 0.8s;
+    cursor:pointer;
+}
+
+.submenuCursos{
+    display: none;
+    width: 180px;
+    height: 100px;
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    margin-top: 10px;
+    position: absolute;
+
+}
+
+.subMenuCursosItem{
+    color: white;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.subMenuCursosItem:hover{
+    background-color: rgb(63, 63, 226);
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: underline;
+}
+
+.itemMenu:hover > .submenuCursos{
+    display: block;
+}
+
+#submenuComposto{
+    opacity: 0;
+    width: 180px;
+    height: 100px;
+    position: absolute;
+    background-color: black;
+    margin-top: -25px;
+    
+
+}
+
+.itemSubMenuComposto{
+    height: 50px;
+    width: 180px;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 20px;
+
+}
+
+.itemSubMenuComposto:hover{
+    background-color: rgb(63, 63, 226);
+    text-decoration: underline;
+
+}
+
+.subMenuCursosItem:hover > #submenuComposto{
+    opacity: 1;
+    transition: 1.5s;
+    margin-left: 180px;
+}
+
+/* seção da pagina inicial */
+
+.fotoCursoInicio{
+     float: left;
+    height: 330px;
+    width: 35%;
+    background-color: lightcoral;
+    margin-bottom: 20px;
+}
+
+.descricaoCursoInicio{
+    float: right;
+    height: 330px;
+    width: 63%;
+    background-color: khaki;
+    margin-bottom: 20px;
+}
