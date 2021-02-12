@@ -241,6 +241,86 @@
     position:absolute
 }
 
+/* Seção sobre a Instituição */
+
+#containerMaeInstituição{
+    height: 930px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+/*.instituicaoConteudo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: inherit;
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+#tituloComecoInstituicao{
+    width: 300px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#hrTituloInstituicao{
+    background-color: black;
+    color: black;
+    width: 238px;
+    /*margin-left: ;*/
+    margin-right: 10px; 
+    height: 5px;
+}
+
+#fotoInstituicao{
+    float: left;
+    width: 260px;
+    height: 260px;
+    margin-left: 50px;
+    margin-right: 20px;
+    background-color: brown;
+    margin-top: 35px;
+}
+
+#conteudoInstituicao{
+    float: left;
+    height: 300px;
+    width: 700px;
+    background-color: cadetblue;
+    margin-top: 10px;
+}
+
+#fraseInstituicao{
+    height: 150px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: chocolate;
+    font-size: 2.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#containterInsituicao{
+    height: 380px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rgba(0, 255, 255, 0.315);*/
+}
+
 /* Seção do rodapé */
 #containerrodape{
     height: 60px;
