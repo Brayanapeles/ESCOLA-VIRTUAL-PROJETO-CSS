@@ -244,7 +244,7 @@
 /* Seção sobre a Instituição */
 
 #containerMaeInstituição{
-    height: 930px;
+    height: 1200px;
     width: 1100px;
     background-color: white;
     margin-top: 60px;
@@ -331,7 +331,7 @@
 
 /* Seção dos Cursos online */
 #containerMaeCursosOnline{
-    height: 1450px;
+    height: 1300px;
     width: 1100px;
     background-color: white;
     margin-top: 60px;
@@ -368,7 +368,7 @@
 #containerDiferencaCursoOnlineEad{
     width: 100%;
     height: 400px;
-    background-color: lightcoral;
+    /*background-color: lightcoral;*/
     margin-bottom: 20px;
 }
 #TituloDiferencaEad{
@@ -376,23 +376,26 @@
     height: 50px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 250px;
-    margin-right: 250px;
-    font-size: 1.3;
+    margin-left: 400px;
+    margin-right: 150px;
+    font-size: 1.5;
+    margin-bottom: -90px;
+    padding-top: 25px;
 }
 #OrganizadorCursoOnline{
     height: 350px;
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: blueviolet;
+    margin-bottom: 50px;
+    margin-top: 35px;
+    /*background-color: blueviolet;*/
 }
 #imagemCursoOnline{
     float: left;
-    margin-top: 25px;
     width: 300px;
     height: 300px;
-    background-color: burlywood;
+    /*background-color: burlywood;*/
     margin-right: 20px;
     background-image: url(../imagens/imagemDuvidas.png);
     background-size: cover;
@@ -402,20 +405,38 @@
     float: left;
     width: 650px;
     height: 250px;
-    background-color: crimson;
+    /*background-color: crimson;*/
     margin-top: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.4em;
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 60px;
 }
 
 #containerNossosCursos{
+    /*width: 100%;*/
     width: 100%;
-    height: 350px;
-    background-color: darkblue;
-    margin-bottom: 65px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#tituloParaListaDosCursos{
+    width: 180px;
+    height: 50px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#listaCursoOnline{
+    width: 500px;
+    height: 150px;
+    padding-left: 12px;
+    margin-top: 50px;
 }
 
 /* Seção do rodapé */
@@ -456,7 +477,7 @@
 
 .aRodape{
     color: black;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-decoration: none;
 }
 #iconeContatos2{
