@@ -541,9 +541,22 @@
     float: left;
     height: 50px;
     width: 50px;
-    padding-top: 15px;
-    background-color: gold;
     margin-right: 10px;
+    margin-top: 5px;
+}
+
+.InstagramIconeProfessores{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/logoInsta.png);
+    background-size: contain;
+
+}
+.linkedinIconeProfessores{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/iconeLinkedin-removebg-preview.png);
+    background-size: contain;
 }
 
 .RedeSocialProfessores{
@@ -551,7 +564,6 @@
     padding-top: 15px;
     width: 350px;
     height: 50px;
-    background-color: hotpink;
     padding-left: 5px;
 }
 
