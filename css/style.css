@@ -244,7 +244,7 @@
 /* Seção sobre a Instituição */
 
 #containerMaeInstituição{
-    height: 1200px;
+    height: 930px;
     width: 1100px;
     background-color: white;
     margin-top: 60px;
@@ -439,6 +439,9 @@
     margin-top: 50px;
 }
 
+.liCursoOnline:hover{
+    text-decoration: underline;
+}
 /* Seção do rodapé */
 #containerrodape{
     height: 60px;
