@@ -12,7 +12,7 @@
 
 
 #containerMae{
-    height: 810px;
+    height: 3260px;
     width: 1100px;
     background-color: white;
     margin-top: 60px;
@@ -444,9 +444,21 @@
 }
 
 /* Seção Nossos Professore */
+#containerMaeProfessores{
+    height: 860px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
 
 #containerNossosProfessores{
-    height: 550px;
+    height: 600px;
     width: 100%;
 }
 
