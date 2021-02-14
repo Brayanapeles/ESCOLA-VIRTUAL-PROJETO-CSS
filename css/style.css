@@ -632,6 +632,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#aYoutube{
+    color: red;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
 /* Seção do rodapé */
 
 #containerrodape{
