@@ -192,6 +192,12 @@
 }
 
 /* seção da pagina inicial */
+.aHome{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}
 
 .h1Home, .h2Home{
     text-align: center;
@@ -204,6 +210,10 @@
     text-align: center;
 }
 
+.h2Home:hover{
+    color: red;
+    text-decoration: underline;
+}
 .fotoCursoInicio{
      float: left;
     height: 276px;
@@ -748,6 +758,95 @@
     color: black;
 }
 
+
+/* Seção Cursos de HTML */
+
+#containerMaeCursosDeHtml{
+    height: 2970px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#containerCursosDeHtml{
+    height:2640px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+    margin-bottom: 50px;
+}
+
+#comoCriarUmaTabela{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: rosybrown;*/
+}
+
+.TituloCursosHtml{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    /*background-color: skyblue;*/
+}
+
+.descricaoCursosHtml{
+    height: 100px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    /*background-color: seagreen;*/
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    padding-top: 15px;
+
+}
+
+.caixaAlignVideoHtml{
+    height: 450px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+}
+
+#comoInserirUmaImagemhtml{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: rosybrown;*/
+}
+
+#comoCriarUmaListaHorizontal{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: rosybrown;*/
+}
+
+#ComoColocarImagemBackgroundCss{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: rosybrown;*/
+}
 /* Seção do rodapé */
 
 #containerrodape{
