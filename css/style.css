@@ -639,6 +639,115 @@
     font-size: 1em;
 }
 
+
+/* Seção dos Contatos */
+
+#containerMaeContatos{
+    height: 700px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#conteudoContatos{
+    height: 440px;
+    width: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tituloContatos{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ImagemPrincipalContatos{
+    float: left;
+    width: 300px;
+    height:300px;
+    margin-left: 40px;
+    margin-right: 10px;
+    background-image: url(../imagens/EscolaContatos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#DescricaoContatos{
+    float: left;
+    width: 310px;
+    height:300px;
+    margin-left: 25px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#emailSocialIconeContatos{
+    float: left;
+    width: 300px;
+    height:300px;
+}
+
+.caixaSocialContatos{
+    height: 50px;
+    width: 450px;
+    margin-top: 10px;
+}
+
+.iconeSocialContatos{
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.InstagramIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/logoInsta.png);
+    background-size: contain;
+}
+
+.linkedinIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/iconeLinkedin-removebg-preview.png);
+    background-size: contain;
+}
+
+.phoneIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/telefone.png);
+    background-size: contain;
+}
+
+.emailIconeContatos{
+    height: 50px;
+    width: 50px;
+    background-image: url(../imagens/emailContatos.png);
+    background-size: contain;
+}
+
+.aContatos{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: black;
+}
+
 /* Seção do rodapé */
 
 #containerrodape{
