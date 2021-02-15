@@ -920,6 +920,61 @@
     /*background-color: blueviolet;*/
 }
 
+
+/* Seção Estrutura dos cursos separados de HTML e SOP */
+.containerMaeCursosSeparados{
+    height: 900px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+.corpoDosCursosSOPeHTML{
+    height: 640px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(63, 63, 226);
+}
+
+.tituloUniversalSopHtml{
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: seagreen;
+}
+
+.descricaoUniversalCursosSopHtml{
+    height: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    /*background-color: khaki;*/
+    text-align: center;
+    /*padding-top: 20px;*/
+    background-color: royalblue;
+}
+
+.caixaAlignVideoUniversalHtmlSop{
+    height: 450px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rosybrown;
+    /*background-color: red;*/
+}
+
 /* Seção do rodapé */
 
 #containerrodape{
@@ -968,3 +1023,4 @@
     height: 60px;
     width:400px;
 }
+
