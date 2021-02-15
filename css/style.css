@@ -502,7 +502,7 @@
     margin-right: 130px;
     margin-left: 120px;
     border-radius: 100%;
-    background-image: url(../imagens/testeProfessor.png);
+    background-image: url(../imagens/AvatarProfessor1.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -512,7 +512,7 @@
     width: 300px;
     float: left;
     border-radius: 100%;
-    background-image: url(../imagens/testeProfessor2.png);
+    background-image: url(../imagens/avatarProfessor2.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -762,7 +762,7 @@
 /* Seção Cursos de HTML */
 
 #containerMaeCursosDeHtml{
-    height: 2970px;
+    height: 2950px;
     width: 1100px;
     background-color: white;
     margin-top: 60px;
@@ -847,6 +847,79 @@
     margin-right: auto;
     /*background-color: rosybrown;*/
 }
+
+/* Seção Cursos de Sistemas Operacionais */
+
+.h2CursosHtmlEsop{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2CursosHtmlEsop:hover{
+    color:rgb(63, 63, 226);
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+#containerMaeCursosDeSop{
+    height: 4150px;
+    width: 1100px;
+    background-color: white;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 9px 7px 5px rgba(50, 50, 50, 0.77);
+	-moz-box-shadow:    9px 7px 5px rgba(50, 50, 50, 0.77);
+	box-shadow:         9px 7px 5px rgba(50, 50, 50, 0.77);
+}
+
+#CursosDeSopConteudo{
+    width: 1000px;
+    height: 3890px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: brown;*/
+}
+
+.tituloCursosSop{
+    height: 50px;
+    width: 800px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background-color: cadetblue;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descricaoCursoSop{
+    height: 100px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    /*background-color: khaki;*/
+    text-align: center;
+    padding-top: 20px;
+}
+
+.caixaAlignVideoSop{
+    height: 450px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+}
+
+.containerTituloDescricaoVideoCursosSop{
+    height: 600px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    /*background-color: blueviolet;*/
+}
+
 /* Seção do rodapé */
 
 #containerrodape{
